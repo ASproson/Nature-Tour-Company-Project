@@ -1,0 +1,222 @@
+/* * {
+  border: 1px solid black;
+} */
+
+html {
+  font-size: 16px;
+}
+
+* {
+  font-family: "Teko";
+  font-size: 1.8rem;
+}
+
+h1, h2 {
+  font-family: "Bebas Neue";
+  font-size: 2.9rem;
+}
+
+body {
+  margin: auto;
+}
+
+/*
+========
+  Lead Image
+========
+*/
+
+.lead_container {
+  display: grid;
+  grid-column: span 6;
+  background-image: url("images/lead.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30rem;
+}
+
+.lead_container .title h1 {
+  color: black;
+  font-size: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+========
+  Navbar
+========
+*/
+
+.navbar {
+  height: 2rem;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.navbar .logo, .links {
+  display: inline-flex;
+}
+
+.navbar .links {
+  float: right;
+  justify-content: space-between;
+  width: 20rem;
+}
+
+/*
+=======
+The grid
+=======
+ */
+
+.content_container {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  background-color: black;
+}
+
+/*
+=======
+banner
+=======
+ */
+
+.banner_container {
+  display: flex;
+  grid-column: span 6;
+  background-image: url("images/single_day_excursion.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30rem;
+}
+
+.banner {
+  display: inline-flex;
+}
+
+.banner .inspire {
+  margin-left: 6.5rem;
+  align-items: center;
+}
+
+.banner .blurb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10rem;
+  margin-left: 3rem;
+}
+
+.banner .blurb p {
+  color: white;
+}
+
+/*
+=======
+All excursion text
+=======
+ */
+
+.excursion_text p {
+  display: flex;
+  color: white;
+}
+
+/*
+=======
+Single day excursion
+=======
+ */
+
+.single_day_excursion {
+  grid-column: span 6;
+  background-image: url("images/three_day_excursion.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30rem;
+}
+
+.single_day_excursion .excursion_title {
+  margin-left: 18rem;
+}
+
+.single_day_excursion .excursion_text {
+  margin-left: 16rem;
+  margin-right: 10rem;
+  width: 50rem;
+}
+
+/*
+=======
+Three day excursion
+=======
+ */
+
+ .three_day_excursion {
+   grid-column: span 6;
+   background-image: url("images/packages.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 30rem;
+ }
+
+ .three_day_excursion .excursion_title {
+   margin-left: 6rem;
+ }
+
+ .three_day_excursion .excursion_text {
+   margin-left: 4rem;
+   margin-right: 24rem;
+    width: 50rem;
+ }
+
+ /*
+ =======
+Five day excursion
+ =======
+  */
+
+.five_day_excursion {
+  grid-column: span 6;
+  background-image: url("images/five_day_excursion.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30rem;
+}
+
+.five_day_excursion .excursion_title {
+  margin-left: 18rem;
+}
+
+.five_day_excursion .excursion_text {
+  margin-left: 16rem;
+  margin-right: 10rem;
+  width: 50rem;
+}
+
+/*
+=======
+Footer
+=======
+ */
+
+ footer {
+   grid-column: span 6;
+   display: inline-flex;
+   justify-content: space-between;
+   color: white;
+   margin-left: 1rem;
+   margin-right: 1rem;
+ }
